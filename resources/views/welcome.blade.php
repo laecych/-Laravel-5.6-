@@ -1,4 +1,16 @@
-<!doctype html>
+@extends('layouts.app')
+
+@section('content')
+    <h1>隨機題庫系統</h1>
+@endsection
+
+@section('my_menu')
+<li><a class="nav-link" href="/home">www</a></li>
+
+@stop
+
+
+{{-- <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -79,11 +91,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
-                </div>
+                    {{$name}}{{$say}} Laravel
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="https://laravel.com/docs">test</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
@@ -92,4 +103,4 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
