@@ -22,10 +22,4 @@
 
 @endsection
 
-@section('my_menu')
-<li><a class="nav-link" href="/home">我的選項1</a></li>
-<li><a class="nav-link" href="/home">我的選項2</a></li>
-<li><a class="nav-link" href="/home">我的選項3</a></li>
-<li><a class="nav-link" href="/home">我的選項4</a></li>
-@parent 
-@stop
+

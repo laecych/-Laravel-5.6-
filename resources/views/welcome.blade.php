@@ -5,8 +5,7 @@
 @endsection
 
 @section('my_menu')
-<li><a class="nav-link" href="/home">www</a></li>
-
+<li><a class="nav-link" href="/home">Home</a></li>
 @stop
 
 
