@@ -6,6 +6,7 @@
 
 @section('my_menu')
 <li><a class="nav-link" href="/home">Home</a></li>
+@parent
 @stop
 
 

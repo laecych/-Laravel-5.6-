@@ -13,10 +13,17 @@
 
 Route::get('/', function () {
     $data = ['name' => 'Hello world', 'say' => '嗨！'];
-
     return view('welcome', $data);
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/form', function () {
+    return view('formtest');
+})->name('formtest');
+
+Route::get('/exam/create', function () {
+    return view('exam.create');
+})->name('exam_create');

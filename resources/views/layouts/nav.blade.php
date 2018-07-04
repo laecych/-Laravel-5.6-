@@ -31,10 +31,18 @@
                 @section('my_menu') 
                 @role('管理員')
                 <li><a class="nav-link" href="/admin">{{ __('Admin') }}</a></li>
+                <li><a class="nav-link" href="/exam/create">{{ __('Exam') }}</a></li>
                 @endrole
+
+                 @role('老師')
+                <li><a class="nav-link" href="/exam/create">{{ __('Exam') }}</a></li>
+                @endrole
+
+                @role('學生')
+                <li><a class="nav-link" href="/test">{{ __('Test') }}</a></li>
+                @endrole 
                 @show
 
-            
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false" v-pre>
